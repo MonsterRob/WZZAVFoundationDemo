@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5130FD661D61639400641AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD651D61639400641AB1 /* main.m */; };
+		5130FD691D61639400641AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD681D61639400641AB1 /* AppDelegate.m */; };
+		5130FD711D61639400641AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5130FD701D61639400641AB1 /* Assets.xcassets */; };
+		5130FD741D61639400641AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5130FD721D61639400641AB1 /* LaunchScreen.storyboard */; };
+		5130FD7F1D61643D00641AB1 /* WZZChooseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD7E1D61643D00641AB1 /* WZZChooseTableVC.m */; };
+		5130FD821D61648D00641AB1 /* WZZPlaySoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD811D61648D00641AB1 /* WZZPlaySoundEffect.m */; };
+		5130FD851D61649A00641AB1 /* WZZPlayMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD841D61649A00641AB1 /* WZZPlayMusic.m */; };
+		5130FD881D6164C100641AB1 /* WZZSoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130FD871D6164C100641AB1 /* WZZSoundRecorder.m */; };
+		5130FD8C1D616A3600641AB1 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5130FD8A1D616A3600641AB1 /* a.mp3 */; };
+		5130FD8D1D616A3600641AB1 /* cuckoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5130FD8B1D616A3600641AB1 /* cuckoo.wav */; };
+		5130FD8F1D619A6400641AB1 /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5130FD8E1D619A6400641AB1 /* b.mp3 */; };
+		513406F51D63F345008F2306 /* WZZGetPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 513406F41D63F345008F2306 /* WZZGetPhoto.m */; };
+		513406F81D6403B4008F2306 /* WZZGetPhotoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 513406F71D6403B4008F2306 /* WZZGetPhotoTest.m */; };
+		513406FB1D6435CE008F2306 /* WZMakeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 513406FA1D6435CE008F2306 /* WZMakeVideo.m */; };
+		513407211D654397008F2306 /* WZZQRCodeScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 513407201D654397008F2306 /* WZZQRCodeScan.m */; };
+		513407241D6543EB008F2306 /* WZZQRGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 513407231D6543EB008F2306 /* WZZQRGenerator.m */; };
+		5134072B1D655E72008F2306 /* ff_QRCodeScanLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 513407261D655E72008F2306 /* ff_QRCodeScanLine.png */; };
+		5134072C1D655E72008F2306 /* ScanQR1.png in Resources */ = {isa = PBXBuildFile; fileRef = 513407271D655E72008F2306 /* ScanQR1.png */; };
+		5134072D1D655E72008F2306 /* ScanQR2.png in Resources */ = {isa = PBXBuildFile; fileRef = 513407281D655E72008F2306 /* ScanQR2.png */; };
+		5134072E1D655E72008F2306 /* ScanQR3.png in Resources */ = {isa = PBXBuildFile; fileRef = 513407291D655E72008F2306 /* ScanQR3.png */; };
+		5134072F1D655E72008F2306 /* ScanQR4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5134072A1D655E72008F2306 /* ScanQR4.png */; };
+		513407311D65A23F008F2306 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 513407301D65A23F008F2306 /* 1.jpg */; };
+		5180552E1D62E4EA0009C252 /* WZZMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5180552D1D62E4EA0009C252 /* WZZMoviePlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5130FD611D61639400641AB1 /* WZZAVFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZAVFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5130FD651D61639400641AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5130FD671D61639400641AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5130FD681D61639400641AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5130FD701D61639400641AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5130FD731D61639400641AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5130FD751D61639400641AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5130FD7D1D61643D00641AB1 /* WZZChooseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZChooseTableVC.h; sourceTree = "<group>"; };
+		5130FD7E1D61643D00641AB1 /* WZZChooseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZChooseTableVC.m; sourceTree = "<group>"; };
+		5130FD801D61648D00641AB1 /* WZZPlaySoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZPlaySoundEffect.h; sourceTree = "<group>"; };
+		5130FD811D61648D00641AB1 /* WZZPlaySoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZPlaySoundEffect.m; sourceTree = "<group>"; };
+		5130FD831D61649A00641AB1 /* WZZPlayMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZPlayMusic.h; sourceTree = "<group>"; };
+		5130FD841D61649A00641AB1 /* WZZPlayMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZPlayMusic.m; sourceTree = "<group>"; };
+		5130FD861D6164C100641AB1 /* WZZSoundRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSoundRecorder.h; sourceTree = "<group>"; };
+		5130FD871D6164C100641AB1 /* WZZSoundRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSoundRecorder.m; sourceTree = "<group>"; };
+		5130FD8A1D616A3600641AB1 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		5130FD8B1D616A3600641AB1 /* cuckoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cuckoo.wav; sourceTree = "<group>"; };
+		5130FD8E1D619A6400641AB1 /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b.mp3; sourceTree = "<group>"; };
+		513406F31D63F345008F2306 /* WZZGetPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZGetPhoto.h; sourceTree = "<group>"; };
+		513406F41D63F345008F2306 /* WZZGetPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZGetPhoto.m; sourceTree = "<group>"; };
+		513406F61D6403B4008F2306 /* WZZGetPhotoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZGetPhotoTest.h; sourceTree = "<group>"; };
+		513406F71D6403B4008F2306 /* WZZGetPhotoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZGetPhotoTest.m; sourceTree = "<group>"; };
+		513406F91D6435CE008F2306 /* WZMakeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMakeVideo.h; sourceTree = "<group>"; };
+		513406FA1D6435CE008F2306 /* WZMakeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMakeVideo.m; sourceTree = "<group>"; };
+		5134071F1D654397008F2306 /* WZZQRCodeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZQRCodeScan.h; sourceTree = "<group>"; };
+		513407201D654397008F2306 /* WZZQRCodeScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZQRCodeScan.m; sourceTree = "<group>"; };
+		513407221D6543EB008F2306 /* WZZQRGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZQRGenerator.h; sourceTree = "<group>"; };
+		513407231D6543EB008F2306 /* WZZQRGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZQRGenerator.m; sourceTree = "<group>"; };
+		513407261D655E72008F2306 /* ff_QRCodeScanLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_QRCodeScanLine.png; sourceTree = "<group>"; };
+		513407271D655E72008F2306 /* ScanQR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScanQR1.png; sourceTree = "<group>"; };
+		513407281D655E72008F2306 /* ScanQR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScanQR2.png; sourceTree = "<group>"; };
+		513407291D655E72008F2306 /* ScanQR3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScanQR3.png; sourceTree = "<group>"; };
+		5134072A1D655E72008F2306 /* ScanQR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScanQR4.png; sourceTree = "<group>"; };
+		513407301D65A23F008F2306 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5180552C1D62E4EA0009C252 /* WZZMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZMoviePlayer.h; sourceTree = "<group>"; };
+		5180552D1D62E4EA0009C252 /* WZZMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZMoviePlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5130FD5E1D61639400641AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5130FD581D61639400641AB1 = {
+			isa = PBXGroup;
+			children = (
+				5130FD7C1D6163E700641AB1 /* Resources */,
+				5130FD7B1D6163CE00641AB1 /* Controllers */,
+				5130FD631D61639400641AB1 /* WZZAVFoundationDemo */,
+				5130FD621D61639400641AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5130FD621D61639400641AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5130FD611D61639400641AB1 /* WZZAVFoundationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5130FD631D61639400641AB1 /* WZZAVFoundationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5130FD671D61639400641AB1 /* AppDelegate.h */,
+				5130FD681D61639400641AB1 /* AppDelegate.m */,
+				5130FD701D61639400641AB1 /* Assets.xcassets */,
+				5130FD721D61639400641AB1 /* LaunchScreen.storyboard */,
+				5130FD751D61639400641AB1 /* Info.plist */,
+				5130FD641D61639400641AB1 /* Supporting Files */,
+			);
+			path = WZZAVFoundationDemo;
+			sourceTree = "<group>";
+		};
+		5130FD641D61639400641AB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5130FD651D61639400641AB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5130FD7B1D6163CE00641AB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5130FD7D1D61643D00641AB1 /* WZZChooseTableVC.h */,
+				5130FD7E1D61643D00641AB1 /* WZZChooseTableVC.m */,
+				5130FD801D61648D00641AB1 /* WZZPlaySoundEffect.h */,
+				5130FD811D61648D00641AB1 /* WZZPlaySoundEffect.m */,
+				5130FD831D61649A00641AB1 /* WZZPlayMusic.h */,
+				5130FD841D61649A00641AB1 /* WZZPlayMusic.m */,
+				5130FD861D6164C100641AB1 /* WZZSoundRecorder.h */,
+				5130FD871D6164C100641AB1 /* WZZSoundRecorder.m */,
+				5180552C1D62E4EA0009C252 /* WZZMoviePlayer.h */,
+				5180552D1D62E4EA0009C252 /* WZZMoviePlayer.m */,
+				513406F31D63F345008F2306 /* WZZGetPhoto.h */,
+				513406F41D63F345008F2306 /* WZZGetPhoto.m */,
+				513406F61D6403B4008F2306 /* WZZGetPhotoTest.h */,
+				513406F71D6403B4008F2306 /* WZZGetPhotoTest.m */,
+				513406F91D6435CE008F2306 /* WZMakeVideo.h */,
+				513406FA1D6435CE008F2306 /* WZMakeVideo.m */,
+				5134071F1D654397008F2306 /* WZZQRCodeScan.h */,
+				513407201D654397008F2306 /* WZZQRCodeScan.m */,
+				513407221D6543EB008F2306 /* WZZQRGenerator.h */,
+				513407231D6543EB008F2306 /* WZZQRGenerator.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5130FD7C1D6163E700641AB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				513407301D65A23F008F2306 /* 1.jpg */,
+				513407251D655E72008F2306 /* scan */,
+				5130FD891D616A3600641AB1 /* 音效音频 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5130FD891D616A3600641AB1 /* 音效音频 */ = {
+			isa = PBXGroup;
+			children = (
+				5130FD8A1D616A3600641AB1 /* a.mp3 */,
+				5130FD8B1D616A3600641AB1 /* cuckoo.wav */,
+				5130FD8E1D619A6400641AB1 /* b.mp3 */,
+			);
+			path = "音效音频";
+			sourceTree = "<group>";
+		};
+		513407251D655E72008F2306 /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				513407261D655E72008F2306 /* ff_QRCodeScanLine.png */,
+				513407271D655E72008F2306 /* ScanQR1.png */,
+				513407281D655E72008F2306 /* ScanQR2.png */,
+				513407291D655E72008F2306 /* ScanQR3.png */,
+				5134072A1D655E72008F2306 /* ScanQR4.png */,
+			);
+			path = scan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5130FD601D61639400641AB1 /* WZZAVFoundationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5130FD781D61639400641AB1 /* Build configuration list for PBXNativeTarget "WZZAVFoundationDemo" */;
+			buildPhases = (
+				5130FD5D1D61639400641AB1 /* Sources */,
+				5130FD5E1D61639400641AB1 /* Frameworks */,
+				5130FD5F1D61639400641AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZAVFoundationDemo;
+			productName = WZZAVFoundationDemo;
+			productReference = 5130FD611D61639400641AB1 /* WZZAVFoundationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5130FD591D61639400641AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					5130FD601D61639400641AB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52BPVBHBSC;
+					};
+				};
+			};
+			buildConfigurationList = 5130FD5C1D61639400641AB1 /* Build configuration list for PBXProject "WZZAVFoundationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5130FD581D61639400641AB1;
+			productRefGroup = 5130FD621D61639400641AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5130FD601D61639400641AB1 /* WZZAVFoundationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5130FD5F1D61639400641AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513407311D65A23F008F2306 /* 1.jpg in Resources */,
+				5134072D1D655E72008F2306 /* ScanQR2.png in Resources */,
+				5134072E1D655E72008F2306 /* ScanQR3.png in Resources */,
+				5134072F1D655E72008F2306 /* ScanQR4.png in Resources */,
+				5130FD8C1D616A3600641AB1 /* a.mp3 in Resources */,
+				5130FD741D61639400641AB1 /* LaunchScreen.storyboard in Resources */,
+				5130FD8D1D616A3600641AB1 /* cuckoo.wav in Resources */,
+				5134072C1D655E72008F2306 /* ScanQR1.png in Resources */,
+				5130FD711D61639400641AB1 /* Assets.xcassets in Resources */,
+				5134072B1D655E72008F2306 /* ff_QRCodeScanLine.png in Resources */,
+				5130FD8F1D619A6400641AB1 /* b.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5130FD5D1D61639400641AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5130FD691D61639400641AB1 /* AppDelegate.m in Sources */,
+				5180552E1D62E4EA0009C252 /* WZZMoviePlayer.m in Sources */,
+				5130FD881D6164C100641AB1 /* WZZSoundRecorder.m in Sources */,
+				5130FD7F1D61643D00641AB1 /* WZZChooseTableVC.m in Sources */,
+				513406F81D6403B4008F2306 /* WZZGetPhotoTest.m in Sources */,
+				5130FD821D61648D00641AB1 /* WZZPlaySoundEffect.m in Sources */,
+				513406F51D63F345008F2306 /* WZZGetPhoto.m in Sources */,
+				5130FD661D61639400641AB1 /* main.m in Sources */,
+				513407241D6543EB008F2306 /* WZZQRGenerator.m in Sources */,
+				513407211D654397008F2306 /* WZZQRCodeScan.m in Sources */,
+				513406FB1D6435CE008F2306 /* WZMakeVideo.m in Sources */,
+				5130FD851D61649A00641AB1 /* WZZPlayMusic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5130FD721D61639400641AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5130FD731D61639400641AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5130FD761D61639400641AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5130FD771D61639400641AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5130FD791D61639400641AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZZAVFoundationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.wzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5130FD7A1D61639400641AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZZAVFoundationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.wzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5130FD5C1D61639400641AB1 /* Build configuration list for PBXProject "WZZAVFoundationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5130FD761D61639400641AB1 /* Debug */,
+				5130FD771D61639400641AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5130FD781D61639400641AB1 /* Build configuration list for PBXNativeTarget "WZZAVFoundationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5130FD791D61639400641AB1 /* Debug */,
+				5130FD7A1D61639400641AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5130FD591D61639400641AB1 /* Project object */;
+}
